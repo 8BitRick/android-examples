@@ -14,8 +14,7 @@ public class BubbleActivity extends Activity {
 		RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.frame);
 
 		ImageView bubbleView = new ImageView(getApplicationContext());
-		bubbleView
-				.setImageDrawable(getResources().getDrawable(R.drawable.b128));
+		bubbleView.setImageDrawable(getResources().getDrawable(R.drawable.b128));
 
 		int width = (int) getResources().getDimension(R.dimen.image_width);
 		int height = (int) getResources().getDimension(R.dimen.image_height);
